@@ -1,1 +1,2 @@
 # odin-recipes
+This is a simple website that will link various recipes using relative anchors, It is made with the purpose of putting into practice anchors, Git, Commit Messages, and so on. This website is an exercise ~part of the Foundations Course property of The Odin Project.
