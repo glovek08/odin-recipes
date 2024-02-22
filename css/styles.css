@@ -16,15 +16,6 @@ body {
     padding: 0;
 }
 
-header {
-    background: var(--accent-dark);
-    color: var(--main-font-dark);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-}
-
 main {
     display: flex;
     align-items: center;
@@ -41,6 +32,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: var(--accent-dark);
+    color: var(--main-font-dark);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
 nav {
@@ -114,7 +111,6 @@ div#main-container {
 }
 
 section#recipe-context {
-    outline: 1px solid red;
     min-height: 400px;
     padding: 10px;
     display: grid;
@@ -125,13 +121,11 @@ section#recipe-context {
 }
 
 section#recipe-ingredients {
-    outline: 1px solid green;
     padding: 10px;
     margin: 10px 0;
 }
 
 section#recipe-instructions {
-    outline: 1px solid yellow;
     padding: 10px;
     margin: 10px 0;
 }
