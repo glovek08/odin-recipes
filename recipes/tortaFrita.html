@@ -5,105 +5,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabo's Recipes | Torta Frita</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="myPizza.html">Gabo's Pizza</a></li>
-            <li><a href="cannaButter.html">CannaButter</a></li>
-        </ul>
-    </nav>
-    <h1>Uruguayan Torta Fritas</h1>
-    <img src="https://i.ytimg.com/vi/srFLqIk9fiM/maxresdefault.jpg" alt="Torta Fritas" width="600" height="400" />
-    <h2>A little bit of context</h2>
-    <p>So, torta fritas (fried cakes) are actually not cakes at all, they're super simple, super filling, you know; food
-        for the
-        worker class.
-        They were mainly consumed by gauchos (People that would make american cowboys look like little girls) as they
-        had to face
-        the harsh climate and remoteness of the pampas. Nowadays tho, torta fritas are a rioplatence staple, we commonly
-        eat
-        them during a rainy winter day alongside mate (the drink) and people you love. They're not just food for the
-        body, but for
-        the soul as well.
-    </p>
-    <p>Torta fritas are surprisingly delicious considering they're made from just 5 cheap ingredients. Although making
-        them
-        can become kind of a mess.
-    </p>
-    <h3>Ingredients:</h3>
-    <ul>
-        <li>500 grams (17 oz. or 2 cups) of wheat flour (Whole purpose or bread flour).</li>
-        <li>250 ml (8.5 oz. or 1 cup) of warm water.</li>
-        <li>20 grams (1.5 tbsp) of beef tallow for the dough.</li>
-        <li>10 grams (1.5 tsp) of salt.</li>
-        <li>5 grams (1 tsp) of sugar.</li>
-        <li>10 grams (2 tsp) of fresh yeast.</li>
-        <li>Enough beef tallow to completely submerge the torta fritas when frying.</li>
-    </ul>
-    <h3>Making the Dough:</h3>
-    <p>Start with a wooden, plastic or glass bowl (avoid metal) big enough to fit the raised dough, add half of the warm
-        water, add the salt,
-        the sugar and the tablespoon of beef tallow, mix everything thoroughly, once the beef tallow is all melted, add
-        the fresh yeast and be careful with the
-        temperature of the water, it should be warm enough so when you sink your finger in it, you kinda don't feel
-        anything. If it's too hot, it will kill the yeast.
-    </p>
-    <p>Once the yeast is dissolved, start adding the flour little by litte, always leave a little bit of flour for
-        kneading and such.
-        Now it's similar to making a pizza dough, the more you knead, the tastier it will be. Always use your hands.
-    </p>
-    <p>
-        Continue adding flour as needed until the dough doesn't stick to the bowl, transfer it to a countertop or flat
-        surface, as always, wood is
-        prefered.
-        Now start being aggresive with the dough, use your palms and try to add air into the dough, do so until you have
-        a smooth, fluffy and homogeneous dough. Once you feel the dough is ready, put it back into the bowl and let it
-        raise, cover the bowl with a wet linen or cotton dishcloth.
-    </p>
-    <p>When the dough doubles in size, divide it into equal parts, usually for 500 grams I end up making 4 to 5 torta
-        fritas but it depends on how large your frying pan or pot is. Make buns with those individual parts and let them
-        rest in your countertop, add a little bit of flour so they don't stick and cover them with the same wet
-        dishcloth.
-    </p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="myPizza.html" class="nav-item">Gabo's Pizza</a></li>
+                <li><a href="cannaButter.html" class="nav-item">CannaButter</a></li>
+                <li><a href="../index.html" class="nav-item home">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id='main-container'>
+            <h1 id="main-title">URUGUAYAN TORTA FRITAS</h1>
+            <section id='recipe-context'>
+                <div class="grid-item">
+                    <img src="https://i.ytimg.com/vi/srFLqIk9fiM/maxresdefault.jpg" class="main-image"
+                        alt="Torta Fritas" width="600" height="400" />
+                        <figcaption>Uruguayan torta fritas.</figcaption>
+                </div>
+                <div class="grid-item">
+                    <h2>A little bit of context</h2>
+                    <p>So, torta fritas (fried cakes) are actually not cakes at all, they're super simple, super
+                        filling,
+                        you
+                        know;
+                        food
+                        for the
+                        worker class.
+                        They were mainly consumed by gauchos (People that would make american cowboys look like little
+                        girls) as
+                        they
+                        had to face
+                        the harsh climate and remoteness of the pampas. Nowadays tho, torta fritas are a rioplatence
+                        staple,
+                        we
+                        commonly
+                        eat
+                        them during a rainy winter day alongside mate (the drink) and people you love. They're not just
+                        food
+                        for
+                        the
+                        body, but for
+                        the soul as well.
+                    </p>
+                    <p>Torta fritas are surprisingly delicious considering they're made from just 5 cheap ingredients.
+                        Although
+                        making
+                        them
+                        can become kind of a mess.
+                    </p>
+                </div>
+            </section>
+            <section id="recipe-ingredients">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>500 grams (17 oz. or 2 cups) of wheat flour (Whole purpose or bread flour).</li>
+                    <li>250 ml (8.5 oz. or 1 cup) of warm water.</li>
+                    <li>20 grams (1.5 tbsp) of beef tallow for the dough.</li>
+                    <li>10 grams (1.5 tsp) of salt.</li>
+                    <li>5 grams (1 tsp) of sugar.</li>
+                    <li>10 grams (2 tsp) of fresh yeast.</li>
+                    <li>Enough beef tallow to completely submerge the torta fritas when frying.</li>
+                </ul>
+            </section>
+            <section id="recipe-instructions">
+                <h3>Making the Dough:</h3>
+                <p>Start with a wooden, plastic or glass bowl (avoid metal) big enough to fit the raised dough, add half
+                    of
+                    the
+                    warm
+                    water, add the salt,
+                    the sugar and the tablespoon of beef tallow, mix everything thoroughly, once the beef tallow is all
+                    melted,
+                    add
+                    the fresh yeast and be careful with the
+                    temperature of the water, it should be warm enough so when you sink your finger in it, you kinda
+                    don't
+                    feel
+                    anything. If it's too hot, it will kill the yeast.
+                </p>
+                <p>Once the yeast is dissolved, start adding the flour little by litte, always leave a little bit of
+                    flour
+                    for
+                    kneading and such.
+                    Now it's similar to making a pizza dough, the more you knead, the tastier it will be. Always use
+                    your
+                    hands.
+                </p>
+                <p>
+                    Continue adding flour as needed until the dough doesn't stick to the bowl, transfer it to a
+                    countertop
+                    or
+                    flat
+                    surface, as always, wood is
+                    prefered.
+                    Now start being aggresive with the dough, use your palms and try to add air into the dough, do so
+                    until
+                    you
+                    have
+                    a smooth, fluffy and homogeneous dough. Once you feel the dough is ready, put it back into the bowl
+                    and
+                    let
+                    it
+                    raise, cover the bowl with a wet linen or cotton dishcloth.
+                </p>
+                <p>When the dough doubles in size, divide it into equal parts, usually for 500 grams I end up making 4
+                    to 5
+                    torta
+                    fritas but it depends on how large your frying pan or pot is. Make buns with those individual parts
+                    and
+                    let
+                    them
+                    rest in your countertop, add a little bit of flour so they don't stick and cover them with the same
+                    wet
+                    dishcloth.
+                </p>
 
-    <h3>Frying:</h3>
-    <p>While the buns rest, add the beef tallow to a frying pan although I recommend using a stockpot cause frying
-        it's a messy business, you can also fry them in vegetable oil, but that's what Argentinians use because the city
-        life has made them big pussies. Also beef tallow while fatter is also healthier than processed vegetable oil.
-    </p>
-    <p>
-        Before getting the beef tallow ready for frying, place something like chinese chopsticks on top of a bowl, this
-        is
-        where you will hang the torta fritas once ready, so the excess grease can drain.
-        Bring the beef tallow to around 180°C (356°F), if you can't measure the temperature, just use a little bit of
-        dough and if it becomes bubbly and floats, then it's ready, you should not see smoke or vapor coming from the
-        beef tallow. If you
-        do, lower the flame (or voltage), if you end up with torta fritas soaking in grease it's because the beef tallow
-        was too cold.
-    </p>
-    <p>So, once the beef tallow is ready for frying, grab one of the buns and strech it using a rolling pin,
-        now, you can make them either think or thin acccording to your liking, thinner torta fritas are a lot more
-        crunchy while
-        thicker are a lot more spongy and chewy. <span style="color:darkred">Important!: Add a whole in the middle of
-            the torta frita so it doesn't get bloated during frying and potentially explode.</span>
-    </p>
-    <p>Fry them as you would fry potato chips, once you see the edges of the torta frita start to get golden brown, flip
-        it. Takes no more than a pair of minutes per side, once ready,
-    </p>
-    <p>Repeat the process with the rest of the torta fritas and Voila! Enjoy them with a nice coffee or if you want the
-        true rioplatence experience, you can spread some dulce de leche or even sugar on them, also try drinking some
-        mate, or mate cocido.
-    </p>
-    <p><em>Pro Gaucho tip:</em> When the beef tallow solidifies, you can scrap the bottom of it where most of the chunks
-        will be, that way you can reuse the same beef tallow multiple times, in every Uruguayan house there is a pot
-        dedicated to frying torta fritas filled with 10 years old beef tallow, usually it's an old pot that belonged to
-        your grand-grandpa or something like that.
-    </p>
-    <a href="#top">Back to Top.</a><br>
-    <a href="../index.html">Back to Home.</a>
+                <h3>Frying:</h3>
+                <p>While the buns rest, add the beef tallow to a frying pan although I recommend using a stockpot cause
+                    frying
+                    it's a messy business, you can also fry them in vegetable oil, but that's what Argentinians use
+                    because
+                    the
+                    city
+                    life has made them big pussies. Also beef tallow while fatter is also healthier than processed
+                    vegetable
+                    oil.
+                </p>
+                <p>
+                    Before getting the beef tallow ready for frying, place something like chinese chopsticks on top of a
+                    bowl,
+                    this
+                    is
+                    where you will hang the torta fritas once ready, so the excess grease can drain.
+                    Bring the beef tallow to around 180°C (356°F), if you can't measure the temperature, just use a
+                    little
+                    bit
+                    of
+                    dough and if it becomes bubbly and floats, then it's ready, you should not see smoke or vapor coming
+                    from
+                    the
+                    beef tallow. If you
+                    do, lower the flame (or voltage), if you end up with torta fritas soaking in grease it's because the
+                    beef
+                    tallow
+                    was too cold.
+                </p>
+                <p>So, once the beef tallow is ready for frying, grab one of the buns and strech it using a rolling pin,
+                    now, you can make them either think or thin acccording to your liking, thinner torta fritas are a
+                    lot
+                    more
+                    crunchy while
+                    thicker are a lot more spongy and chewy. <span class="important">Important!: Add a whole in the
+                        middle
+                        of
+                        the torta frita so it doesn't get bloated during frying and potentially explode.</span>
+                </p>
+                <p>Fry them as you would fry potato chips, once you see the edges of the torta frita start to get golden
+                    brown,
+                    flip
+                    it. Takes no more than a pair of minutes per side, once ready,
+                </p>
+                <p>Repeat the process with the rest of the torta fritas and Voila! Enjoy them with a nice coffee or if
+                    you
+                    want
+                    the
+                    true rioplatence experience, you can spread some dulce de leche or even sugar on them, also try
+                    drinking
+                    some
+                    mate, or mate cocido.
+                </p>
+                <p><em>Pro Gaucho tip:</em> When the beef tallow solidifies, you can scrap the bottom of it where most
+                    of
+                    the
+                    chunks
+                    will be, that way you can reuse the same beef tallow multiple times, in every Uruguayan house there
+                    is a
+                    pot
+                    dedicated to frying torta fritas filled with 10 years old beef tallow, usually it's an old pot that
+                    belonged
+                    to
+                    your grand-grandpa or something like that.
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="#top" class="footer-anchor">Back to Top.</a>
+        <a href="../index.html" class="footer-anchor">Back to Home.</a>
+    </footer>
 </body>
 
 </html>
